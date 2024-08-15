@@ -18,17 +18,12 @@ This code is implemented in PyTorch, and we have tested the code under the follo
  - Codes for our feature statistics with uncertainty module in standard training (FSU-ST) and the FSU with fine-tuning strategy in advertral training (FSU-FiT) (Will be relased when the manuscript is accpted)
    
  - Well-trained models for CIFAR10 are shown in the following links:
-|作者|果冻虾仁|
-|---|---
-|知乎|[![zhihu-shield]][zhihu]
-|公众号|编程往事
 
  |Model|Link|
  |---|---
  |FSU-ST|[https://XXX](https://XXXX)
  |TRADES+FSU|[https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link](https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link)
- |AT-AWP+FSU|[https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link](https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link
-)
+ |AT-AWP+FSU|[https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link](https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link)
  |MLCATWP+FSU|[https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link](https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link)
  |MAIL-TRADES+FSU|[https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1](https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1)
  |MAIL-TRADES+FSU-FiT|[https://drive.google.com/file/d/16OuayktsI3evAqJg_KEp_C9RZcC7YidG/view?usp=drive_link](https://drive.google.com/file/d/16OuayktsI3evAqJg_KEp_C9RZcC7YidG/view?usp=drive_link)
