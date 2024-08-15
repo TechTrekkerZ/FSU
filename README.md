@@ -1,11 +1,5 @@
 ## Feature Statistics with Uncertainty Help Adversarial Robustness
 
-This branch is developed for feature statistics with uncertainty help adversarial robustness, the related paper is as follows:
-
-    Feature Statistics with Uncertainty Help Adversarial Robustness
-    Ran Wang, Xinlei Zhou, Meng Hu, Wenhui Wu, Yuheng Jia
-    2024.
-
 ## Requisite
 
 This code is implemented in PyTorch, and we have tested the code under the following environment settings:
