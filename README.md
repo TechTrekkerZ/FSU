@@ -15,7 +15,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 - torchvision = 0.9.1
 
 ## What is in this repository
- - Codes for our feature statistics with uncertainty module in standard training (FSU-ST) and the FSU with fine-tuning strategy in advertral training (FSU-FiT) (Will be relased when the manuscript is accpted)
+ - Codes for our feature statistics with uncertainty module in standard training (FSU-ST) and the FSU with fine-tuning strategy in adversarial training (FSU-FiT) (Will be relased when the manuscript is accpted)
    
  - Well-trained models for CIFAR10 are shown in the following links:
 
