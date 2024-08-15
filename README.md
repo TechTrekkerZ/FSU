@@ -18,7 +18,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
  - Codes for our feature statistics with uncertainty module in standard training (FSU-ST) and the FSU with fine-tuning strategy in advertral training (FSU-FiT) (Will be relased when the manuscript is accpted)
    
  - Well-trained models for CIFAR10 are shown in the following links:
- |Model|Link
+ |Model|Link|
  |---|---
  |FSU-ST|[https://XXX](https://XXXX)
  |TRADES+FSU|[https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link](https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link)
