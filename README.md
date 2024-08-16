@@ -128,9 +128,6 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <th>Link</th>
   </tr>
   <tr>
-   <td colspan="2" align='center'>CIFAR10</td>
-  </tr>
-  <tr>
    <td>(0.3, 1)</td>
    <td>https://drive.google.com/file/d/1Ni1G1xFtYCa5_C4QVhhiciXBZx0lmP2p/view?usp=drive_link</td>
   </tr>
