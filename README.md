@@ -118,7 +118,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
  </table>
 
- - Well-trained MAIL-TRADES+FSU-FiT models are shown in the following links:
+ - Well-trained <b>MAIL-TRADES+FSU-FiT</b> models are shown in the following links:
 
 <table>
   <caption></caption>
