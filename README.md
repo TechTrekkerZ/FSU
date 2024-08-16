@@ -114,6 +114,31 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
  </table>
 
+  - Well-trained models optimized by the FSU with fine-tuning strategy in adversarial training are shown in the following links:
+
+ <table>
+  <caption></caption>
+  <!-- 表格行标签 -->
+  <tr>
+   <th>Model</th>
+   <th>Link</th>
+  </tr>
+  <tr>
+   <td colspan="2" align='center'>MNIST</td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td colspan="2" align='center'>MNIST</td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+  </tr>
+ </table>
+
 ## Reference Code
 [1] TRADES: https://github.com/yaodongyu/TRADES
 
