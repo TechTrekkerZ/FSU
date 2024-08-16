@@ -30,19 +30,19 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1VFUYkle2_GlAxz6qdAgSdjiut3nXP5gG/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1hpWrtGcx6IUG9En7JRuJEN3A57-REytD/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>AT-AWP+FSU</td>
-   <td>https://drive.google.com/file/d/13PdN0CHJDWtrVd78hwxTa8sI5pjHYX70/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1PZ50SJvvdOSEAK_ifg31F_vNk-QXf3N3/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MLCATWP+FSU</td>
-   <td>https://drive.google.com/file/d/12bQMvIiMBj7qhLrPwLk_q5sVOng-EGEA/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/13oOrsoLUPt-amSwALs4EbMryWOXuQyw0/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1Mw4rPFO3ZzxsOJnMLk-yj8kdpzQcEHTv/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1BTHtbWHDiFePfM6llkBje_9cPy-MNkUI/view?usp=drive_link</td>
   </tr>
   
   <tr>
@@ -54,19 +54,19 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1kKBYzkpAOT9IZ6SU89U-dkLGtKKcOUex/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>AT-AWP+FSU</td>
-   <td>https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/16qlpAvmBtzPkGVyGwaVvun-bEEuEu-TQ/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MLCATWP+FSU</td>
-   <td>https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/17PMKvg1VRXuhpl7ClPFkuLAjsER9kO90/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1HwfO-mrQmnytJ5GFLuT4g4wls2Jzwbdl/view?usp=drive_link</td>
   </tr>
 
   <tr>
@@ -78,15 +78,15 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1DZMjIOpO07776-wtKYKb7T4-VjFCxVN8/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1uAKCMlIO0xgrbC5wqSFdzndutlzvY0-W/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>AT-AWP+FSU</td>
-   <td>https://drive.google.com/file/d/14RXFKWXVhmx9Wlb3EUEkaUvrgC2-Jzf7/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1p1PQ2LbbMyZwY0BWJM_rDCmgWHT2GROl/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1t7lStxpRjpRe7BeCE7SwPyuv633KZm9o/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1UtwDJOAijl8QC-HZ6k7xq2GeJP0ZAso_/view?usp=drive_link</td>
   </tr>
   
   <tr>
@@ -98,19 +98,19 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/1_o4FoxAX70WpxGKDWkEWky9inT2WJtTm/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1vBZFh4VoHQkV1hp1l-Nx_7PIZLCn51C_/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>AT-AWP+FSU</td>
-   <td>https://drive.google.com/file/d/1pT7JcuS9IyE8IkM8gQMyqoM7dtADHeUT/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1vv0CaoK-k-MUknNZIJZues7bdsJRcV-S/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MLCATWP+FSU</td>
-   <td>https://drive.google.com/file/d/1njuT1heqTlYoQTiPkYP6DXLs6293cPG7/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1unCkah2--tuYTI2ZozLuxjBjQlpA_vLE/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU</td>
-   <td>https://drive.google.com/file/d/17Q0h9DlRksJ2Fmxba8iTg8RgKJCNiP7c/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1mED6QzuSufDBXKURCl2Hr2l_Pqe-Ty6G/view?usp=drive_link</td>
   </tr>
  </table>
 
