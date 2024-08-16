@@ -14,22 +14,23 @@ This code is implemented in PyTorch, and we have tested the code under the follo
  - Well-trained FSU-ST models are shown in the following links:
 
  <table>
-  <caption>表格标题</caption>
+  <caption></caption>
   <!-- 表格行标签 -->
   <tr>
    <!-- 表格表头单元格标签 -->
-   <th>姓名</th>
-   <th>年龄</th>
+   <th>Model</th>
+   <th>Link</th>
+  </tr>
+  <tr>
+   <!-- 表格普通单元格标签 -->
+   <td colspan="2" align='center'>CIFAR10</td>
   </tr>
   <tr>
    <!-- 表格普通单元格标签 -->
    <td>Tom</td>
    <td>18</td>
   </tr>
-  <tr>
-   <!-- 表格普通单元格标签 -->
-   <td colspan="2">Jerry</td>
-  </tr>
+  
  </table>
 
  |Model|Link|
