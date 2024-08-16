@@ -11,7 +11,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 ## What is in this repository
  - Codes for our feature statistics with uncertainty module in standard training (FSU-ST) and the FSU with fine-tuning strategy in adversarial training (FSU-FiT) (Will be released when the manuscript is accepted)
    
- - Well-trained models optimized by FSU-ST and FSU-FiT are shown in the following links:
+ - Well-trained models optimized by FSU-ST are shown in the following links:
 
  <table>
   <caption></caption>
@@ -20,6 +20,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <th>Model</th>
    <th>Link</th>
   </tr>
+  
   <tr>
    <td colspan="2" align='center'>MNIST</td>
   </tr>
@@ -43,6 +44,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>MAIL-TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
   </tr>
+  
   <tr>
    <td colspan="2" align='center'>CIFAR10</td>
   </tr>
@@ -66,10 +68,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>MAIL-TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
   </tr>
-  <tr>
-   <td>MAIL-TRADES+FSU-FiT</td>
-   <td>https://drive.google.com/drive/folders/13GGNrm-FprCBuqw5Jm5sqICLufUUL-B-?usp=drive_link</td>
-  </tr>
+
   <tr>
    <td colspan="2" align='center'>SVHN</td>
   </tr>
@@ -93,6 +92,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>MAIL-TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
   </tr>
+  
   <tr>
    <td colspan="2" align='center'>CIFAR100</td>
   </tr>
@@ -129,14 +129,16 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <th>Link</th>
   </tr>
   <tr>
-   <td colspan="2" align='center'>CIFAR10</td>
+   <td colspan="3" align='center'>CIFAR10</td>
   </tr>
   <tr>
-   <td>FSU-ST</td>
+   <td rowspan="2">MAIL-TRADES+FSU-FiT</td>
+   <td>(0.3, 1)</td>
    <td>https://XXXX</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
+   <td>(0.5, 1)</td>
    <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
   </tr>
   <tr>
