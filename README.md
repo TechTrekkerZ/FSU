@@ -21,11 +21,11 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <th>Link</th>
   </tr>
   <tr>
-   <td colspan="2" align='center'>CIFAR10</td>
+   <td colspan="2" align='center'>MNIST</td>
   </tr>
   <tr>
    <td>FSU-ST</td>
-   <td>[https://XXX](https://XXXX)</td>
+   <td>https://XXXX</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -43,20 +43,76 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>MAIL-TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
   </tr>
-  
-  
+  <tr>
+   <td colspan="2" align='center'>CIFAR10</td>
+  </tr>
+  <tr>
+   <td>FSU-ST</td>
+   <td>https://XXXX</td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>AT-AWP+FSU</td>
+   <td>https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MLCATWP+FSU</td>
+   <td>https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MAIL-TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
+  </tr>
+  <tr>
+   <td colspan="2" align='center'>SVHN</td>
+  </tr>
+  <tr>
+   <td>FSU-ST</td>
+   <td>https://XXXX</td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>AT-AWP+FSU</td>
+   <td>https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MLCATWP+FSU</td>
+   <td>https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MAIL-TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
+  </tr>
+  <tr>
+   <td colspan="2" align='center'>CIFAR100</td>
+  </tr>
+  <tr>
+   <td>FSU-ST</td>
+   <td>https://XXXX</td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>AT-AWP+FSU</td>
+   <td>https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MLCATWP+FSU</td>
+   <td>https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MAIL-TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
+  </tr>
  </table>
-
- |Model|Link|
- |---|---
- 
- |FSU-ST|[https://XXX](https://XXXX)
- |TRADES+FSU|[https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link](https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link)
- |AT-AWP+FSU|[https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link](https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link)
- |MLCATWP+FSU|[https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link](https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link)
- |MAIL-TRADES+FSU|[https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1](https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1)
- |MAIL-TRADES+FSU-FiT|[https://drive.google.com/file/d/16OuayktsI3evAqJg_KEp_C9RZcC7YidG/view?usp=drive_link](https://drive.google.com/file/d/16OuayktsI3evAqJg_KEp_C9RZcC7YidG/view?usp=drive_link)
-
 
 ## Reference Code
 [1] TRADES: https://github.com/yaodongyu/TRADES
