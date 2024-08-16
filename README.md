@@ -85,10 +85,6 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>https://drive.google.com/file/d/14RXFKWXVhmx9Wlb3EUEkaUvrgC2-Jzf7/view?usp=drive_link</td>
   </tr>
   <tr>
-   <td>MLCATWP+FSU</td>
-   <td>https://drive.google.com/file/d/11Jr97u2ZRTsgwrTER12dJ_0xwIzVPpWe/view?usp=drive_link</td>
-  </tr>
-  <tr>
    <td>MAIL-TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1t7lStxpRjpRe7BeCE7SwPyuv633KZm9o/view?usp=drive_link</td>
   </tr>
