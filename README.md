@@ -118,21 +118,19 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
  </table>
 
- - Well-trained models optimized by FSU-FiT are shown in the following links:
+ - Well-trained MAIL-TRADES+FSU-FiT models are shown in the following links:
 
 <table>
   <caption></caption>
   <!-- 表格行标签 -->
   <tr>
-   <th>Model</th>
    <th>(&alpha;, &beta;)</th>
    <th>Link</th>
   </tr>
   <tr>
-   <td colspan="3" align='center'>CIFAR10</td>
+   <td colspan="2" align='center'>CIFAR10</td>
   </tr>
   <tr>
-   <td rowspan="2">MAIL-TRADES+FSU-FiT</td>
    <td>(0.3, 1)</td>
    <td>https://drive.google.com/file/d/1Ni1G1xFtYCa5_C4QVhhiciXBZx0lmP2p/view?usp=drive_link</td>
   </tr>
