@@ -125,11 +125,11 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>(0.3, 1)</td>
-   <td>https://drive.google.com/file/d/1Ni1G1xFtYCa5_C4QVhhiciXBZx0lmP2p/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1viUYcKgdHPNQFCvMXq5h4MNxGucyNwNz/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>(0.5, 1)</td>
-   <td>https://drive.google.com/file/d/1ur47VTwVVLuG33uL-NwXHI7cpCdPPNLm/view?usp=drive_link</td>
+   <td>https://drive.google.com/file/d/1v1-s_HCnym0PNowSPcbo4vbXwwEYBmoX/view?usp=drive_link</td>
   </tr>
 
 </table>
