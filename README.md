@@ -68,7 +68,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU-FiT</td>
-   <td>https://drive.google.com/file/d/16OuayktsI3evAqJg_KEp_C9RZcC7YidG/view?usp=drive_link</td>
+   <td>https://drive.google.com/drive/folders/13GGNrm-FprCBuqw5Jm5sqICLufUUL-B-?usp=drive_link</td>
   </tr>
   <tr>
    <td colspan="2" align='center'>SVHN</td>
