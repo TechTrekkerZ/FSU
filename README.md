@@ -29,7 +29,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>[https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link](https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link)</td>
+   <td>[https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link]https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
   </tr>
   
  </table>
