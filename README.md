@@ -31,6 +31,19 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1cpyApGH1pWe3p6v5NYlGDqZW9qAIP_i9/view?usp=drive_link</td>
   </tr>
+  <tr>
+   <td>AT-AWP+FSU</td>
+   <td>https://drive.google.com/file/d/1aCfk4ofMqLoqBFlrGvTlJDDFaUOh3akR/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MLCATWP+FSU</td>
+   <td>https://drive.google.com/file/d/1YvPX4XcIdxR02rPnYFk7YC5cK-FlYsgc/view?usp=drive_link</td>
+  </tr>
+  <tr>
+   <td>MAIL-TRADES+FSU</td>
+   <td>https://drive.google.com/file/d/1OjhUVZ4k_9tp-xf4kmEjPDvc26zpifQH/view?pli=1</td>
+  </tr>
+  
   
  </table>
 
