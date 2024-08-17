@@ -26,7 +26,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-ST</td>
-   <td>https://XXXX</td>
+   <td>https://drive.google.com/file/d/16vf1gZeq9YDazOpCDFcwTdOnjlOvnI46/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -50,7 +50,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-ST</td>
-   <td>https://XXXX</td>
+   <td>https://drive.google.com/file/d/1T1XFR3ApKj70gT4uka4rB8dk1JflbYMl/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -74,7 +74,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-ST</td>
-   <td>https://XXXX</td>
+   <td>https://drive.google.com/file/d/17GGyjG9A7DoroSV-L_2SEYHRlKB0RyPU/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -94,7 +94,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-ST</td>
-   <td>https://XXXX</td>
+   <td>https://drive.google.com/file/d/1jbNQJpDBUCqRI54U-cyyw3RvBKh-9v9x/view?usp=drive_link</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
