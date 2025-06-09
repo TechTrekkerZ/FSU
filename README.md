@@ -28,7 +28,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <tr>
    <td>FSU-NT</td>
    <td>(1, 1)</td>
-   <td></td>
+   <td>https://drive.google.com/file/d/1A-wwqIqADjPqccssmqyYZ4zf3G74lmaU/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -68,7 +68,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <tr>
    <td>FSU-NT</td>
    <td>(1, 1)</td>
-   <td></td>
+   <td>https://drive.google.com/file/d/1c34ApzCR--RSqgf5RVSxBcKVRNGxLQA5/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -107,7 +107,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <tr>
    <td>FSU-NT</td>
    <td>(1, 1)</td>
-   <td></td>
+   <td>https://drive.google.com/file/d/1l2xNk95iV6nvKBy--3c8weMazse3ttGV/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
@@ -140,8 +140,8 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(1, 1)</td>
-   <td></td>
+   <td>(4, 1)</td>
+   <td>https://drive.google.com/file/d/1iDWUBhAxhvKNW61vHAzpHI3dQ_IP2Vns/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
