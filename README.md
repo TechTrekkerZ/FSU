@@ -27,7 +27,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(/, /)</td>
+   <td>(1, 1)</td>
    <td></td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(/, /)</td>
+   <td>(1, 1)</td>
    <td></td>
   </tr>
   <tr>
@@ -106,7 +106,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(/, /)</td>
+   <td>(1, 1)</td>
    <td></td>
   </tr>
   <tr>
@@ -140,7 +140,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(/, /)</td>
+   <td>(1, 1)</td>
    <td></td>
   </tr>
   <tr>
