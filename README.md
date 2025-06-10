@@ -183,3 +183,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 [3] MLCATWP: https://github.com/ChaojianYu/Understanding-Robust-Overfitting
 
 [4] MAIL: https://github.com/QizhouWang/MAIL
+
+[5] DKL: https://github.com/jiequancui/DKL/tree/main/DKLv1
+
+[6] RiFT: https://github.com/microsoft/robustlearn/tree/main/RiFT
