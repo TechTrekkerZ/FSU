@@ -27,35 +27,29 @@ class DistributionUncertainty(nn.Module):
         if deltas.dim() == 2:
             sampled_values = torch.randn_like(deltas)
 
-            # 创建掩码
             pos_mask = deltas > 0
             neg_mask = deltas < 0
 
-            # 对于 delta > 0 的位置，重新采样直到采样值大于 0
             while True:
                 resample = torch.randn_like(deltas)
                 sampled_values[pos_mask] = torch.where(resample[pos_mask] > 0, resample[pos_mask], sampled_values[pos_mask])
                 if torch.all(sampled_values[pos_mask] > 0):
                     break
 
-            # 对于 delta < 0 的位置，重新采样直到采样值小于 0
             while True:
                 resample = torch.randn_like(deltas)
                 sampled_values[neg_mask] = torch.where(resample[neg_mask] < 0, resample[neg_mask], sampled_values[neg_mask])
                 if torch.all(sampled_values[neg_mask] < 0):
                     break
 
-            # 对于 delta == 0 的位置，保留初始采样值（已经是标准正态分布）
             return sampled_values
 
         else:
             batch_size = deltas.shape[0]
-            sampled_values = torch.randn(batch_size)  # 初始化与 delta 相同大小的张量
-            # real_sampled = sampled_values[:,0]
-            # 创建掩码
+            sampled_values = torch.randn(batch_size)
             pos_mask = []
             neg_mask = []
-            # 遍历每个样本，统计正值和负值的数量，并确定 掩码 值
+
             for i in range(batch_size):
                 sample = deltas[i]
                 positive_count = (sample > 0).sum().item()
@@ -68,21 +62,17 @@ class DistributionUncertainty(nn.Module):
                     pos_mask.append(False)
                     neg_mask.append(True)
 
-            # 对于 delta > 0 的位置，重新采样直到采样值大于 0
             while True:
                 resample = torch.randn(batch_size)
                 sampled_values[pos_mask] = torch.where(resample[pos_mask] > 0, resample[pos_mask], sampled_values[pos_mask])
                 if torch.all(sampled_values[pos_mask] > 0):
                     break
 
-            # 对于 delta < 0 的位置，重新采样直到采样值小于 0
             while True:
                 resample = torch.randn(batch_size)
                 sampled_values[neg_mask] = torch.where(resample[neg_mask] < 0, resample[neg_mask], sampled_values[neg_mask])
                 if torch.all(sampled_values[neg_mask] < 0):
                     break
-
-            # 对于 delta == 0 的位置，保留初始采样值（已经是标准正态分布）
 
             sampled_values = sampled_values.unsqueeze(1).unsqueeze(2).unsqueeze(3)
             sampled_values = sampled_values.expand(deltas.shape)
@@ -90,7 +80,7 @@ class DistributionUncertainty(nn.Module):
             return sampled_values.to(device)
 
     def _reparameterize_with_cln(self, mu, sstd, t=None):
-        # 以干净样本与扰动样本的差值为方向进行引导
+
         if t == 'mean':
             delta = mu - self.cln_mean
             sampled_values = self.conditional_sampling(delta)
@@ -117,7 +107,7 @@ class DistributionUncertainty(nn.Module):
         std = (x.var(dim=[2, 3], keepdim=False) + self.eps).sqrt()
 
         if plot_paras is not None:
-            # 求平均 - 一个样本一个值
+
             mean_1dim = torch.mean(mean, dim=1)
             std_1dim = torch.mean(std, dim=1)
 
@@ -133,21 +123,18 @@ class DistributionUncertainty(nn.Module):
                 return x
 
             with open(plot_path, 'a', encoding='utf-8') as f:
-                # json.dump(add_dic, f, indent=4)  # `indent=4` 用于美化JSON格式
-                json.dump(add_dic, f)  # `indent=4` 用于美化JSON格式
+                json.dump(add_dic, f)
                 f.write('\n')
 
             if step == 100:
                 with open(plot_paras[2][1], 'a', encoding='utf-8') as f:
-                    # json.dump(add_dic, f, indent=4)  # `indent=4` 用于美化JSON格式
-                    json.dump(add_dic, f)  # `indent=4` 用于美化JSON格式
+                    json.dump(add_dic, f)
                     f.write('\n')
 
             return x
 
 
         if get_cln_stati:
-            # 保存干净样本的均值方差
             self.cln_mean = mean
             self.cln_std = std
 
@@ -271,10 +258,9 @@ class ResNet(nn.Module):
         out = self.layer2(out)
         out = self.layer3(out)
         out = self.layer4(out)
-        # out = F.avg_pool2d(out, 4)
         if self.fsu_state or self.plot_paras is not None:
-            out = self.pertubration(out, self.get_cln_stati, plot_paras=self.plot_paras, step=step)  # 传入标签
-        out = F.adaptive_avg_pool2d(out, 1) ## tinyimagenet
+            out = self.pertubration(out, self.get_cln_stati, plot_paras=self.plot_paras, step=step)
+        out = F.adaptive_avg_pool2d(out, 1)
         out = out.view(out.size(0), -1)
         out = self.linear(out)
         return out

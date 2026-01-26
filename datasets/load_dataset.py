@@ -1,24 +1,12 @@
-from tqdm import tqdm
+
 from torchvision import transforms
 import torch
 from torchvision import datasets
-import matplotlib.pyplot as plt
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 from torch.utils.data import Dataset
 import os
 from PIL import Image
-
-"""
-      transforms.Resize((size, size)),
-      transforms.RandomHorizontalFlip(),            # 水平翻转
-      transforms.RandomVerticalFlip(),              # 竖直翻转
-      transforms.RandomRotation(15),  # 旋转，范围-15-15
-      transforms.RandomRotation([90, 180]),         # 从三个角度中挑选一个旋转
-      transforms.Resize([28, 28]),                  # 缩放
-      transforms.CenterCrop([28, 28]),              # 随机裁剪
-      transforms.RandomCrop(size, padding=4),
-"""
 
 
 class TinyImageNet(Dataset):
@@ -68,51 +56,9 @@ class data_loader(object):
 
     def __init__(self):
         self.exist_dataset = ['mnist', 'fashion_mnist', 'qmnist', 'cifar10', 'cifar100', 'svhn', 'tinyimagenet']
-        # 80
-        # self.path = {
-        #     'mnist_path': '/data/zhouxnli/image_data/mnist/',
-        #     'fashion_path': '/data/zhouxnli/image_data/fashion_mnist/',
-        #     'qmnist': '/data/zhouxnli/image_data/qmnist/',
-        #     'cifar10_path': '/data/zhouxnli/image_data/cifar10/',
-        #     'cifar100_path': '/data/zhouxnli/image_data/cifar100/',
-        #     'svhn_path': '/data/zhouxnli/image_data/svhn/'
-        # }
-        # # 88
-        # self.path = {
-        #     'mnist_path': '/data/zhouxnli/FSU/image_data/mnist/',
-        #     'fashion_path': '/data/zhouxnli/FSU/image_data/fashion_mnist/',
-        #     'qmnist': '/data/zhouxnli/FSU/image_data/qmnist/',
-        #     'cifar10_path': '/data/zhouxnli/FSU/image_data/cifar10/',
-        #     'cifar100_path': '/data/zhouxnli/FSU/image_data/cifar100/',
-        #     'svhn_path': '/data/zhouxnli/FSU/image_data/svhn/',
-        #     'tinyimagenet': '/data/zhouxnli/FSU/image_data/tinyimagenet/'
-        # }
-        # 205
         self.path = {
-            'mnist_path': '/media/data/zhouxnli/gxd/image_data/mnist/',
-            'fashion_path': '/media/data/zhouxnli/gxd/image_data/fashion_mnist/',
-            'qmnist': '/media/data/zhouxnli/gxd/image_data/qmnist/',
-            'cifar10_path': '/media/data/zhouxnli/gxd/image_data/cifar10/',
-            'cifar100_path': '/media/data/zhouxnli/gxd/image_data/cifar100/',
-            'svhn_path': '/media/data/zhouxnli/gxd/image_data/svhn/',
-            'tinyimagenet': '/media/data/zhouxnli/gxd/image_data/tinyimagenet/'
+            'tinyimagenet': 'tinyimagenet'
         }
-        # self.path = {
-        #     'mnist_path': './hermans/data/image_data/mnist/',
-        #     'fashion_path': './hermans/data/image_data/fashion_mnist/',
-        #     'qmnist': './hermans/data/image_data/qmnist/',
-        #     'cifar10_path': './hermans/data/image_data/Cifar10/',
-        #     'cifar100_path': './hermans/data/image_data/Cifar100/',
-        #     'svhn_path': './hermans/data/image_data/svhn/'
-        # }
-        # self.path = {
-        #     'mnist_path': '/data/khp/image_data/mnist/',
-        #     'fashion_path': '/data/khp/image_data/fashion_mnist/',
-        #     'qmnist': '/data/khp/image_data/qmnist/',
-        #     'cifar10_path': '/data/khp/image_data/Cifar10/',
-        #     'cifar100_path': '/data/khp/image_data/Cifar100/',
-        #     'svhn_path': '/data/khp/image_data/svhn/'
-        # }
 
     def __call__(self, data_name=None, data_dir=None, download=True, size=None, train_batch=None, test_batch=None, normalize=False):
 

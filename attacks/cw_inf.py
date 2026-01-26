@@ -2,11 +2,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 
-from tqdm import tqdm
-import sys
-from advertorch.attacks import Attack
-
-# from utils import AverageMeter, accuracy_top1, accuracy
 from .step import LinfStep, L2Step
 
 STEPS = {
