@@ -25,12 +25,12 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td colspan="3" align='center'>MNIST</td>
   </tr>
   <tr>
-   <td>(1, 1)</td>
+   <td>(1,  1)</td>
    <td>FSU-NT</td>
    <td>https://drive.google.com/file/d/1A-wwqIqADjPqccssmqyYZ4zf3G74lmaU/view?usp=sharing</td>
   </tr>
   <tr>
-   <td>(0.3, 1)</td>
+   <td>(0.3,  1)</td>
    <td>TRADES+FSU</td>
    <td>https://drive.google.com/file/d/1pUOnEjCy-FIPE353KER7Q_8gmRb9aQhz/view?usp=sharing</td>
   </tr>
