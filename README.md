@@ -16,8 +16,8 @@ This code is implemented in PyTorch, and we have tested the code under the follo
  <table style="width:100%; table-layout: fixed;">
   <colgroup>
     <col style="width: 20%;">   <!-- Model -->
-    <col style="width: 20%;"> <!-- 固定第二列宽度 -->
-    <col style="width: auto;">  <!-- Link -->
+    <col style="width: 60%;"> <!-- 固定第二列宽度 -->
+    <col style="width: 20%;">  <!-- Link -->
   </colgroup>
  
   <!-- 表格行标签 -->
