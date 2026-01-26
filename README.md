@@ -13,8 +13,13 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    
  - Well-trained models optimized with FSU are shown in the following links:
 
- <table>
-  <caption></caption>
+ <table style="width:100%; table-layout: fixed;">
+  <colgroup>
+    <col style="width: 20%;">   <!-- Model -->
+    <col style="width: 120px;"> <!-- 固定第二列宽度 -->
+    <col style="width: auto;">  <!-- Link -->
+  </colgroup>
+ 
   <!-- 表格行标签 -->
   <tr>
    <th>Model</th>
