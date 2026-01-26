@@ -1,4 +1,4 @@
-## Feature Statistics with Uncertainty Help Adversarial Robustness
+## Mitigating Adversarial Shifts in Feature Statistics with Uncertainty-Aware Reconstruction
 
 ## Requisite
 
