@@ -17,7 +17,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <!-- 表格行标签 -->
   <tr>
    <th>Model</th>
-   <th> &alpha;/ &beta; </th>
+   <th>(&alpha;, &beta;) </th>
    <th>Link</th>
   </tr>
   
@@ -26,12 +26,12 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td> 1 / 1</td>
+   <td>(1,1)</td>
    <td>https://drive.google.com/file/d/1A-wwqIqADjPqccssmqyYZ4zf3G74lmaU/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td> 0.3 / 1 </td>
+   <td>(0.3,1)</td>
    <td>https://drive.google.com/file/d/1pUOnEjCy-FIPE353KER7Q_8gmRb9aQhz/view?usp=sharing</td>
   </tr>
 
