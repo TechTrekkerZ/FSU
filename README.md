@@ -179,7 +179,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <tr>
    <td>FSU-NT</td>
    <td>(1,1)</td>
-   <td></td>
+   <td>https://drive.google.com/file/d/1ms830FgN4XBnX4sfNECjzpM9pIc-OqHw/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
