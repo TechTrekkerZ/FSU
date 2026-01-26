@@ -21,6 +21,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <th>Link</th>
   </tr>
   
+  <!--
   <tr>
    <td colspan="3" align='center'>MNIST</td>
   </tr>
@@ -59,7 +60,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>(0.7,1)</td>
    <td>https://drive.google.com/file/d/1beVvNULuAPNg_eaWav10HszvPTMpuRPn/view?usp=sharing</td>
   </tr>
-
+-->
   <tr>
    <td colspan="3" align='center'>CIFAR10</td>
   </tr>
@@ -171,7 +172,24 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>(0.1,1)</td>
    <td>https://drive.google.com/file/d/1si7ePX27PttqLRyTM9DlJqpwg7Uq8VCF/view?usp=sharing</td>
   </tr>
-
+  <tr>
+   <td colspan="3" align='center'>TinyImageNet</td>
+  </tr>
+  <tr>
+   <td>FSU-NT</td>
+   <td>(1,1)</td>
+   <td></td>
+  </tr>
+  <tr>
+   <td>TRADES+FSU</td>
+   <td>(0.5,1)</td>
+   <td>https://drive.google.com/file/d/1ORtLtw26N9Ia7pajrSF3wx1lUfHxMglE/view?usp=sharing</td>
+  </tr>
+  <tr>
+   <td>MLCATWP+FSU</td>
+   <td>(0.5,1)</td>
+   <td>https://drive.google.com/file/d/1ORtLtw26N9Ia7pajrSF3wx1lUfHxMglE/view?usp=sharing</td>
+  </tr>
  </table>
 
 ## Reference Code
