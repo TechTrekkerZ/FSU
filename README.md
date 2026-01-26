@@ -13,13 +13,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    
  - Well-trained models optimized with FSU are shown in the following links:
 
- <table style="width:100%; table-layout: fixed;">
-  <colgroup>
-    <col style="width: 20%;">   <!-- Model -->
-    <col style="width: 60%;"> <!-- 固定第二列宽度 -->
-    <col style="width: 20%;">  <!-- Link -->
-  </colgroup>
- 
+ <table>
   <!-- 表格行标签 -->
   <tr>
    <th>Model</th>
@@ -32,12 +26,12 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>FSU-NT</td>
-   <td>(1, 1)</td>
+   <td>(1, 1)&nbsp;&nbsp;</td>
    <td style="word-break: break-all; overflow-wrap: anywhere;">https://drive.google.com/file/d/1A-wwqIqADjPqccssmqyYZ4zf3G74lmaU/view?usp=sharing</td>
   </tr>
   <tr>
    <td>TRADES+FSU</td>
-   <td>(0.3, 1)</td>
+   <td>(0.3, 1)&nbsp;&nbsp;</td>
    <td style="word-break: break-all; overflow-wrap: anywhere;">https://drive.google.com/file/d/1pUOnEjCy-FIPE353KER7Q_8gmRb9aQhz/view?usp=sharing</td>
   </tr>
 
