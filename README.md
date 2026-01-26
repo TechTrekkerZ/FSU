@@ -9,7 +9,8 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 - torchvision = 0.9.1
 
 ## What is in this repository
- - Codes for testing the TRADES+FSU model on TinyImageNet have been released. The complete implementation, covering FSU-NT (the natural training with FSU module) and the FSU with fine-tuning strategy in adversarial training, will be released after the manuscript is accepted.
+ - Codes for testing the TRADES+FSU model on TinyImageNet have been released.
+ - The complete implementation, covering FSU-NT (the natural training with the FSU module) and FSU with the fine-tuning strategy in adversarial training, will be released after the manuscript is accepted.
    
  - Well-trained models optimized with FSU are shown in the following links:
 
