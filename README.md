@@ -17,7 +17,7 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   <!-- 表格行标签 -->
   <tr>
    <th>Model</th>
-   <th>(&alpha;, &beta;)</th>
+   <th>&nbsp;&nbsp;(&alpha;, &beta;)&nbsp;&nbsp;</th>
    <th>Link</th>
   </tr>
   
