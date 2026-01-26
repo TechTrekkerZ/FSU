@@ -36,12 +36,12 @@ This code is implemented in PyTorch, and we have tested the code under the follo
   </tr>
   <tr>
    <td>AT-AWP+FSU</td>
-   <td>(0.5, 1)</td>
+   <td>(0.5,1)</td>
    <td>https://drive.google.com/file/d/1yPHaJsEZjpV4MjLX-Lk-fm9wwTgpZY74/view?usp=sharing</td>
   </tr>
   <tr>
    <td>MAIL-TRADES+FSU</td>
-   <td>(0.1, 1)</td>
+   <td>(0.1,1)</td>
    <td>https://drive.google.com/file/d/1AooKHsiBv18evndtYNyaHu1FBSPpIBNI/view?usp=sharing</td>
   </tr>
 
