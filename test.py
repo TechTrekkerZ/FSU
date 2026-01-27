@@ -111,8 +111,7 @@ if __name__ == "__main__":
     p.add_argument("--dataset", type=str, default="tinyimagenet")
     p.add_argument("--alpha", type=float, default=0.5)
     p.add_argument("--beta", type=float, default=1.0)
-    p.add_argument("--ckpt", type=str, default="/media/data/zhouxnli/FiT_for_TinyImageNet/FiT_searching_parameters_step1_fix_beta1.0/TRADES/TRADES-FiT_alpha_0.5_beta_1.0/save_model/model_best.pt")
-    # p.add_argument("--ckpt", type=str, required=True)
+    p.add_argument("--ckpt", type=str, required=True)
     p.add_argument("--batch-size", type=int, default=128)
     args = p.parse_args()
 
