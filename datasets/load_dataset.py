@@ -62,16 +62,6 @@ class data_loader(object):
 
     def __call__(self, data_name=None, data_dir=None, download=True, size=None, train_batch=None, test_batch=None, normalize=False):
 
-        """
-        :param data_name: 选择数据集
-        :param data_dir: 外部数据集
-        :param download: 是否下载（默认为否）
-        :param size: 图像大小
-        :param train_batch: 训练集batch大小
-        :param test_batch: 测试集batch大小
-        :param normalize: 是否对输入数据进行标准化（默认为否）
-        """
-
         self.normalize = normalize
 
         if data_name is None and data_dir is None:
@@ -180,8 +170,8 @@ class data_loader(object):
         if self.normalize:
             train_transform = transforms.Compose([
                                       transforms.Resize((size, size)),
-                                      transforms.RandomHorizontalFlip(),            # 水平翻转
-                                      transforms.RandomRotation(15),  # 旋转，范围-15-15
+                                      transforms.RandomHorizontalFlip(),       
+                                      transforms.RandomRotation(15),  
                                       transforms.ToTensor(),
                                       transforms.Normalize((0.1307,), (0.3081,)),
                                   ])
@@ -195,8 +185,8 @@ class data_loader(object):
         else:
             train_transform = transforms.Compose([
                                       transforms.Resize((size, size)),
-                                      transforms.RandomHorizontalFlip(),            # 水平翻转
-                                      transforms.RandomRotation(15),  # 旋转，范围-15-15
+                                      transforms.RandomHorizontalFlip(),       
+                                      transforms.RandomRotation(15), 
                                       transforms.ToTensor(),
                                   ])
 
