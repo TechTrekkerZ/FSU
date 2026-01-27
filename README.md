@@ -199,7 +199,7 @@ Please download or prepare a TRADES checkpoint trained on the target dataset (e.
 Here, we provide a **pre-trained TRADES checkpoint on TinyImageNet**, which can be downloaded from the following link:
 <a href="https://drive.google.com/file/d/1-PJ-FityJ6OoJ_k5xUZlmRZjvdwh1WZw/view?usp=sharing">/path/to/TRADES_TinyImageNet_baseline.pt</a>
 
-### Step 2: Fine-tuning TRADES with the FSU Module
+### Step 2: Fine-tune TRADES with the FSU Module
 ```bash
 $ python train.py --dataset tinyimagenet --alpha 0.5 --beta 1.0 --base-ckpt /path/to/TRADES_TinyImageNet_baseline.pt --save-dir ./runs/trades_fsu_ft
 ```
