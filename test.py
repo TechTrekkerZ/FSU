@@ -3,9 +3,9 @@ import tempfile
 import argparse
 import torch
 
-from for_FiT.load_dataset import data_loader
-from for_FiT.attack import attack
-from for_FiT.cw_inf import CWLinf_attack
+from datasets.load_dataset import data_loader
+from attacks.attack import attack
+from attacks.cw_inf import CWLinf_attack
 from models.wideresnet_trades_for_tiny import ResNet18 as ResNet_for_tiny
 
 from advertorch import attacks as adv_attacks
