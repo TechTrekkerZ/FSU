@@ -87,7 +87,7 @@ def eval_acc(model, device, loader):
 
 
 def main():
-    p = argparse.ArgumentParser("TRADES fine-tuning")
+    p = argparse.ArgumentParser("TRADES fine-tuning with FSU")
     p.add_argument("--dataset", type=str, default="tinyimagenet")
     p.add_argument("--alpha", type=float, default=0.5)
     p.add_argument("--beta", type=float, default=1.0)
