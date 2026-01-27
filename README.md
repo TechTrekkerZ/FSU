@@ -8,10 +8,8 @@ This code is implemented in PyTorch, and we have tested the code under the follo
 - torch = 1.8.1
 - torchvision = 0.9.1
 
-## What is in this repository
- - Codes for testing the TRADES+FSU model on TinyImageNet have been released.
- - The complete implementation, covering FSU-NT (the natural training with the FSU module) and FSU with the fine-tuning strategy in adversarial training, will be released after the manuscript is accepted.
-   
+## What is included in this repository
+ - A complete implementation for fine-tuning TRADES with the proposed FSU (Feature Statistics with Uncertainty) module.
  - Well-trained models optimized with FSU are shown in the following links:
 
  <table>
@@ -192,6 +190,25 @@ This code is implemented in PyTorch, and we have tested the code under the follo
    <td>https://drive.google.com/file/d/1ORtLtw26N9Ia7pajrSF3wx1lUfHxMglE/view?usp=sharing</td>
   </tr>
  </table>
+
+## Running demos
+
+### Step 1: Prepare the Base TRADES Checkpoint
+The fine-tuning process starts from a **pre-trained TRADES baseline model**.  
+Please download or prepare a TRADES checkpoint trained on the target dataset (e.g., TinyImageNet).
+Here, we provide a **pre-trained TRADES checkpoint on TinyImageNet**, which can be downloaded from the following link:
+<a href="https://drive.google.com/file/d/1-PJ-FityJ6OoJ_k5xUZlmRZjvdwh1WZw/view?usp=sharing">/path/to/TRADES_TinyImageNet_baseline.pt</a>
+
+### Step 2: Fine-tune TRADES with the FSU Module
+```bash
+$ python train.py --dataset tinyimagenet --alpha 0.5 --beta 1.0 --base-ckpt /path/to/TRADES_TinyImageNet_baseline.pt --save-dir ./runs/trades_fsu_ft
+```
+
+### Step 3: Evaluate the Fine-tuned TRADES+FSU Model
+Use the following command to evaluate the fine-tuned model under clean and adversarial settings:
+```bash
+$ python test.py --dataset tinyimagenet --alpha 0.5 --beta_ab 1.0 --ckpt ./runs/trades_fsu_ft/model_best.pt
+```
 
 ## Reference Code
 [1] TRADES: https://github.com/yaodongyu/TRADES
