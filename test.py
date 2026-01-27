@@ -23,7 +23,6 @@ def get_num_classes(dataset: str) -> int:
 
 
 def strip_module(state: dict) -> dict:
-    # 兼容 DataParallel 保存的 ckpt：module.xxx
     return {k.replace("module.", ""): v for k, v in state.items()}
 
 
