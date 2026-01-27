@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""train.py
-Example:
-python train.py --dataset tinyimagenet --alpha 0.5 --beta 1.0 \
-  --base-ckpt /path/to/TRADES/tinyimagenet/model_best.pt \
-  --save-dir ./runs/trades_fsu_ft
-"""
-
 import os
 import time
 import copy
@@ -110,7 +103,7 @@ def main():
 
     # IO
     p.add_argument("--base-ckpt", type=str, required=True, help="checkpoint to finetune from")
-    p.add_argument("--save-dir", type=str, default="./runs/trades_ft")
+    p.add_argument("--save-dir", type=str, default="./runs/trades_fsu_ft")
 
     # misc
     p.add_argument("--seed", type=int, default=1)
